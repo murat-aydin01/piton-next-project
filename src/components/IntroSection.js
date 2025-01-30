@@ -2,7 +2,7 @@ import React from "react";
 
 function IntroSection() {
   return (
-    <section className="flex flex-col">
+    <section className="flex flex-col px-24 gap-32">
       <div>
         <h2>Who we are</h2>
         <p>
