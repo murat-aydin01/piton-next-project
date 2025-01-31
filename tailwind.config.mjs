@@ -9,7 +9,8 @@ export default {
     extend: {
       colors: {
         primaryDark: "oklch(84.13% 0.1712 84.76)",
-        heroBg: "oklch(85.94% 0.1746 90.06)"
+        heroBg: "oklch(85.94% 0.1746 90.06)",
+        inputBorder: "oklch(17.3% 0 0)"
       },
     },
   },

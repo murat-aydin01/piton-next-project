@@ -1,3 +1,4 @@
+import FormSection from "@/components/FormSection";
 import HeroSection from "@/components/HeroSection";
 import IntroSection from "@/components/IntroSection";
 import StatsSection from "@/components/StatsSection";
@@ -8,6 +9,7 @@ export default function Home() {
       <HeroSection />
       <IntroSection />
       <StatsSection/>
+      <FormSection/>
     </div>
   );
 }
