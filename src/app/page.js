@@ -5,11 +5,11 @@ import StatsSection from "@/components/StatsSection";
 
 export default function Home() {
   return (
-    <div className="flex flex-col gap-52 text-inputBorder">
+    <div className="flex flex-col gap-24 text-inputBorder">
       <HeroSection />
       <IntroSection />
-      <StatsSection/>
-      <FormSection/>
+      <StatsSection />
+      <FormSection />
     </div>
   );
 }
