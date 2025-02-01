@@ -3,14 +3,14 @@
 export default function HeroSection() {
   return (
     <section
-      className="h-[40vh] md:h-[60vh] lg:h-screen 
+className="snap-start h-[40vh] md:h-[60vh] lg:h-screen
                  bg-[url('/images/HeroShape.png')] bg-cover bg-center bg-heroBg 
                  flex flex-col justify-between items-center"
     >
       <h1
         className="w-full my-auto text-center px-4 
                    sm:px-[20%] 
-                   text-3xl sm:text-4xl md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl 
+text-3xl sm:text-4xl md:text-6xl lg:text-7xl
                    font-bold"
       >
         Let’s create something great together.

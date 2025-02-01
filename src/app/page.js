@@ -5,7 +5,7 @@ import StatsSection from "@/components/StatsSection";
 
 export default function Home() {
   return (
-    <div className="flex flex-col gap-24 text-inputBorder">
+    <div className="h-screen overflow-y-scroll snap-y snap-mandatory">
       <HeroSection />
       <IntroSection />
       <StatsSection />
