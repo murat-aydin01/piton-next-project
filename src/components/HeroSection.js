@@ -3,7 +3,7 @@
 export default function HeroSection() {
   return (
     <section
-      className="h-[40vh] md:h-[60vh] lg:h-screen 
+      className="snap-start h-[40vh] md:h-[60vh] lg:h-screen 
                  bg-[url('/images/HeroShape.png')] bg-cover bg-center bg-heroBg 
                  flex flex-col justify-between items-center"
     >

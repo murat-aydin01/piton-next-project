@@ -2,7 +2,7 @@ import HeroCard from "./HeroCard";
 
 export default function StatsSection() {
   return (
-    <section className="flex flex-col items-center py-10 lg:min-h-screen">
+    <section className="snap-start flex flex-col items-center py-10 lg:min-h-screen">
       <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-8 text-center">
         Meet the heroes behind the magic
       </h2>
