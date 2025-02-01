@@ -2,12 +2,12 @@ import HeroCard from "./HeroCard";
 
 export default function StatsSection() {
   return (
-    <section className="snap-start flex flex-col items-center py-10 lg:min-h-screen">
+<section className="snap-start flex flex-col items-center py-10 lg:min-h-screen">
       <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-8 text-center">
         Meet the heroes behind the magic
       </h2>
       <div className="w-full px-4 sm:px-[8vw] mb-10">
-        <div className="flex flex-wrap justify-center gap-6">
+<div className="flex flex-wrap justify-center gap-6">
           <HeroCard
             img="/images/Avatar1.png"
             name="Esther Howard"
