@@ -18,9 +18,9 @@ export default function FormSection() {
         <h2 className="self-center md:self-end text-3xl sm:text-4xl md:text-5xl font-bold mb-8">
           We&apos;d love to hear from you
         </h2>
-        <form className="flex flex-col gap-y-8" onSubmit={handleSubmit}>
+        <form className="flex flex-col gap-y-6" onSubmit={handleSubmit}>
           <input
-            className="border-2 border-inputBorder h-16 sm:h-20 p-4 text-base"
+            className="border-2 border-inputBorder h-14 px-4 py-3 text-base"
             type="text"
             name="name"
             value={formData.name}
@@ -28,7 +28,7 @@ export default function FormSection() {
             onChange={handleChange}
           />
           <input
-            className="border-2 border-inputBorder h-16 sm:h-20 p-4 text-base"
+            className="border-2 border-inputBorder h-14 px-4 py-3 text-base"
             type="email"
             name="email"
             value={formData.email}
@@ -36,7 +36,7 @@ export default function FormSection() {
             onChange={handleChange}
           />
           <input
-            className="border-2 border-inputBorder h-16 sm:h-20 p-4 text-base"
+            className="border-2 border-inputBorder  h-14 px-4 py-3 text-base"
             type="url"
             name="url"
             value={formData.url}
@@ -44,14 +44,14 @@ export default function FormSection() {
             onChange={handleChange}
           />
           <textarea
-            className="border-2 border-inputBorder h-32 sm:h-40 p-4 text-base"
+            className="border-2 border-inputBorder  h-32 px-4 py-3 text-base"
             name="details"
             value={formData.details}
             placeholder="Project Details*"
             onChange={handleChange}
           />
           <button
-            className="bg-black text-white mt-4 h-16 sm:h-20 text-base font-semibold"
+            className="bg-black text-white mt-4 h-14 text-base font-semibold  hover:bg-gray-800 transition duration-300"
             type="submit"
           >
             Send Proposal
