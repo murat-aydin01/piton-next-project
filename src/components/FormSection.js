@@ -7,7 +7,7 @@ export default function FormSection() {
 
   return (
     <section className="snap-start flex flex-col md:flex-row justify-around items-center flex-wrap px-4 md:px-8 lg:px-24 py-14 lg:min-h-screen">
-      <div className="w-full md:w-4/12 mb-8 md:mb-0 flex justify-center">
+      <div className="w-2/3 md:w-4/12 mb-8 md:mb-0 flex justify-center">
         <img
           src="/images/SideImage.png"
           alt="side image"
