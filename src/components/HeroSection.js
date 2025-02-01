@@ -10,7 +10,7 @@ export default function HeroSection() {
       <h1
         className="w-full my-auto text-center px-4 
                    sm:px-[20%] 
-                   text-3xl sm:text-4xl md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl 
+                   text-3xl sm:text-4xl md:text-6xl lg:text-7xl 
                    font-bold"
       >
         Let’s create something great together.
