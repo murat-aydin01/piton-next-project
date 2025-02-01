@@ -2,7 +2,7 @@ import React from "react";
 
 export default function IntroSection() {
   return (
-<section className="snap-start flex flex-col justify-center px-4 sm:px-[6vw] gap-y-6 xl:min-h-screen">
+<section className="snap-start flex flex-col justify-center px-4 sm:px-[6vw] gap-y-6 xl:min-h-screen py-20">
       <div className="flex flex-col gap-y-4 sm:gap-y-6">
         <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold">
           Who we are
